@@ -1,3 +1,3 @@
 # Python Notlarım
 
-* Bu repository Python çalışmalarımı içerir.
+* Bu repository Python çalışmalarımı içerir. 
