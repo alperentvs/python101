@@ -27,3 +27,24 @@ yeni_sozluk = {"bir":1,"iki":2,"üç":3}
 print(yeni_sozluk.values())    #values() metodu sözlüğün değerlerini bir liste olarak döner
 print(yeni_sozluk.keys())      #keys() metodu sözlüğün anahtarlarını bir liste olarak döner 
 print(yeni_sozluk.items())     #items() metodu sözlüğün anahtar ve değerlerini bir liste içinde demet olarak döner
+
+# ORNEK (JSON FORMAT)
+ogrenciler = {
+    100: {
+        "ad": "Cinar",
+        "soyad": "Bilgi",
+        "yas": 5,
+        "notlar": [70,80,95]
+    },
+    101: {
+        "ad": "Ada",
+        "soyad": "Turan",
+        "yas": 10
+    }
+}
+
+sonuc = ogrenciler[100]
+sonuc = ogrenciler[100]["ad"]
+sonuc = ogrenciler[100]["notlar"][0]
+
+print(sonuc)
