@@ -48,3 +48,14 @@ print(sorted(liste3))
 #İç içe listeler
 list_icice = [liste2,liste3]
 print(list_icice[1][0]) #liste3'ün ilk elemanı
+
+#if blogu=> Koşul ifadeleri
+if "elma" in thislist:
+  print("deger listenin bir elemani")
+  
+#donguler=>listenin elemanlarini yazdirma
+for x in thislist:
+  print(x)
+  
+#Listeden veri silme
+del thislist[1]
