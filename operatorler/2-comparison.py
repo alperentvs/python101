@@ -3,10 +3,6 @@
 # email == 'alperentavas45@gmail.com'
 # password == '12345'
 
-from re import I
-from tkinter.tix import Tree
-
-
 a, b, c, d = 5, 5, 20, 4
 username = "alperentavas"
 password = "12345"
